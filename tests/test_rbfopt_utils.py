@@ -13,10 +13,10 @@ from __future__ import absolute_import
 
 import unittest
 import math
-import numpy as np
 import rbfopt
 import rbfopt.rbfopt_utils as ru
 from rbfopt.rbfopt_settings import RbfoptSettings
+import numpy as np
 
 class TestUtils(unittest.TestCase):
     """Test the rbfopt_utils module."""

@@ -16,12 +16,12 @@ import unittest
 import time
 import tempfile
 import os
-import numpy as np
 import rbfopt
 import rbfopt.rbfopt_algorithm as ra
 import rbfopt.rbfopt_test_functions as tf
 from rbfopt.rbfopt_settings import RbfoptSettings
 from rbfopt.rbfopt_black_box import RbfoptBlackBox
+import numpy as np
 
 class TestGutmann(unittest.TestCase):
     """Test Gutmann's algorithm on a small set of problems."""

@@ -12,12 +12,12 @@ from __future__ import division
 from __future__ import absolute_import
 
 import unittest
-import numpy as np
 import pyomo.environ
 import rbfopt
 import rbfopt.rbfopt_utils as ru
 import rbfopt.rbfopt_degreem1_models as dm1
 from rbfopt.rbfopt_settings import RbfoptSettings
+import numpy as np
 
 class TestGaussianModels(unittest.TestCase):
     """Test the rbfopt_degreem1_models module using gaussian RBF."""

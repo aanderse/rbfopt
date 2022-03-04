@@ -14,10 +14,10 @@ from __future__ import division
 from __future__ import absolute_import
 
 import unittest
-import numpy as np
 import rbfopt
-import inspect
 import rbfopt.rbfopt_test_functions as tf
+import numpy as np
+import inspect
 
 class TestFunctions(unittest.TestCase):
     """Test the rbfopt_test_functions module."""

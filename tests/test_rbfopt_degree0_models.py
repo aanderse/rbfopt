@@ -12,12 +12,12 @@ from __future__ import division
 from __future__ import absolute_import
 
 import unittest
-import numpy as np
 import pyomo.environ
 import rbfopt
 import rbfopt.rbfopt_utils as ru
 import rbfopt.rbfopt_degree0_models as d0
 from rbfopt.rbfopt_settings import RbfoptSettings
+import numpy as np
 
 class TestMultiquadricModels(unittest.TestCase):
     """Test the rbfopt_degree0_models module using multiquadric RBF."""

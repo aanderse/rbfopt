@@ -12,11 +12,11 @@ from __future__ import division
 from __future__ import absolute_import
 
 import unittest
-import numpy as np
 import rbfopt
 import rbfopt.rbfopt_utils as ru
 import rbfopt.rbfopt_aux_problems as aux
 from rbfopt.rbfopt_settings import RbfoptSettings
+import numpy as np
 
 def quadratic(points):
     """Quadratic function for optimization.
